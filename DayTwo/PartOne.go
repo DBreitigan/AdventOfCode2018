@@ -14,7 +14,6 @@ func main() {
 			resultMap[c]++
 		}
 
-
 		var twoCountFound, threeCountFound = false, false
 		for _, v := range resultMap {
 			if v == 2 && !twoCountFound {
@@ -24,7 +23,6 @@ func main() {
 			if v == 3 && !threeCountFound {
 				threeCountFound = true
 				threeCount++
-
 			}
 		}
 	}

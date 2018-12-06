@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("DBreitigan/AdventOfCode2018/DayThree/input.txt")
+	file, err := os.Open("DBreitigan/AdventOfCode2018/Day_3/input.txt")
 
 	if err != nil {
 		fmt.Println(err)

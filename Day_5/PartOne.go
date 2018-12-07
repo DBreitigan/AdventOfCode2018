@@ -35,7 +35,6 @@ func main() {
 				i--
 			}
 		}
-
 	}
 
 	fmt.Println(len(input))

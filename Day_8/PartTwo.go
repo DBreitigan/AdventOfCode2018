@@ -44,7 +44,6 @@ func processChildren(input []int64) ([]int64, int64) {
 	//If leaf node
 	if numChildren == 0 {
 		for i := int64(0); i < numMetadata; i++ {
-
 			metadataVal += input[i]
 		}
 

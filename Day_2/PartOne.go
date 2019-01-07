@@ -29,5 +29,4 @@ func main() {
 
 	var result = twoCount * threeCount
 	fmt.Print(result)
-	fmt.Print("Done")
 }
